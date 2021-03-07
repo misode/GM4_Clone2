@@ -13,7 +13,7 @@ jobs:
       - uses: octokit/request-action@v2.x
         id: get_pull_requests
         with:
-          route: GET /repos/{owner}/{repo}/pulls
+          route: GET /repos/{owner}/{repo}/pulls?state=open&base=master
           owner: Gamemode4Dev
           repo: GM4_Datapacks
         env:
