@@ -1,0 +1,21 @@
+name: Server Testing
+
+on:
+  pull_request:
+    types: [ labeled, unlabeled ]
+
+jobs:
+  label:
+    if: ${{ github.event.label.name == 'server-testing' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: octokit/request-action@v2.x
+        id: get_pull_requests
+        with:
+          route: GET /repos/{owner}/{repo}/pulls
+          owner: Gamemode4Dev
+          repo: GM4_Datapacks
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: echo "${{ steps.get_pull_requests.outputs.data }}"
