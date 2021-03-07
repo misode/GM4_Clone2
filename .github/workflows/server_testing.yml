@@ -18,4 +18,6 @@ jobs:
           repo: GM4_Datapacks
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: echo "${{ steps.get_pull_requests.outputs.data }}"
+      - run: |
+          printf "${{ steps.get_pull_requests.outputs.data }}" >> pull_requests.json
+          cat pull_requests.json
