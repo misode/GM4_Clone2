@@ -20,7 +20,46 @@ jobs:
           ignoreLintPathPattern: |
             gm4_block_compressors:compress/16
             gm4_block_compressors:compress/64
+            gm4_everstone:everstone
+            gm4_orb_of_ankou:soul_forge/entities/fire_sprite
+            gm4_orb_of_ankou:soul_forge/outputs/create_shard
+            gm4_orb_of_ankou:soul_essence/aggressive
+            gm4_orb_of_ankou:soul_essence/agile
+            gm4_orb_of_ankou:soul_essence/anchoring
+            gm4_orb_of_ankou:soul_essence/bargaining
+            gm4_orb_of_ankou:soul_essence/bashing
+            gm4_orb_of_ankou:soul_essence/blasting
+            gm4_orb_of_ankou:soul_essence/blinding
+            gm4_orb_of_ankou:soul_essence/bounding
+            gm4_orb_of_ankou:soul_essence/bubbly
+            gm4_orb_of_ankou:soul_essence/conjuring
+            gm4_orb_of_ankou:soul_essence/depriving
+            gm4_orb_of_ankou:soul_essence/draining
+            gm4_orb_of_ankou:soul_essence/enduring
+            gm4_orb_of_ankou:soul_essence/expeditious
+            gm4_orb_of_ankou:soul_essence/feathery
+            gm4_orb_of_ankou:soul_essence/freezing
+            gm4_orb_of_ankou:soul_essence/gazing
+            gm4_orb_of_ankou:soul_essence/gliding
+            gm4_orb_of_ankou:soul_essence/hawkeye
+            gm4_orb_of_ankou:soul_essence/incombustible
+            gm4_orb_of_ankou:soul_essence/lifeless
+            gm4_orb_of_ankou:soul_essence/neutralizing
+            gm4_orb_of_ankou:soul_essence/phasing
+            gm4_orb_of_ankou:soul_essence/pricking
+            gm4_orb_of_ankou:soul_essence/retreating
+            gm4_orb_of_ankou:soul_essence/rushing
+            gm4_orb_of_ankou:soul_essence/scaling
+            gm4_orb_of_ankou:soul_essence/soaring
+            gm4_orb_of_ankou:soul_essence/striding
+            gm4_orb_of_ankou:soul_essence/synergetic
+            gm4_orb_of_ankou:soul_essence/vanishing
+            gm4_orb_of_ankou:soul_essence/venomous
+            gm4_orb_of_ankou:soul_essence/volatile
+            gm4_orb_of_ankou:soul_essence/withering
             gm4_standard_liquids:item_drain/experience_bottle_16x
             gm4_standard_liquids:item_drain/experience_bottle_64x
+            gm4_soul_glass:destroy
+            gm4_soul_glass:furnace/modify_output
             gm4_zauber_cauldrons:cauldron/extra_items/catch_possessed_items
             gm4_zauber_liquids:item_fill/zauber_wormhole_potion
